@@ -26,7 +26,7 @@ $(document).ready(() => {
       throw new Error("Empty crn");
     }
 
-    $("#time").html((newTime - time) / 1000);
+    $("#time").html((newTime - time) / 1000 + " sec");
     $("#reset").removeClass("d-none");
   });
 
