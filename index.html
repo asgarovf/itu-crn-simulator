@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Source+Sans+Pro:wght@200;300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>CRN Simulator</title>
+  </head>
+  <body>
+    <section id="app">
+      <div class="left-menu">
+        <div class="empty-div"></div>
+        <div class="user-info">
+          <div class="user">
+            <div>
+              <img src="./assets/default.png" alt="" class="user-image" />
+            </div>
+            <div>
+              <h4 class="user-name">Farhad Asgarov</h4>
+            </div>
+          </div>
+          <div class="menu">
+            <div class="navigation">
+              <div class="settings-icon">
+                <img
+                  src="./assets/icons/settings.png"
+                  alt=""
+                  class="settings-icon"
+                />
+              </div>
+              <div class="settings-icon">
+                <img
+                  src="./assets/icons/person.png"
+                  alt=""
+                  class="settings-icon"
+                />
+              </div>
+              <div class="settings-icon">
+                <img
+                  src="./assets/icons/calendar.png"
+                  alt=""
+                  class="settings-icon"
+                />
+              </div>
+              <div class="settings-icon">
+                <img
+                  src="./assets/icons/aplus.png"
+                  alt=""
+                  class="settings-icon"
+                />
+              </div>
+              <div class="pen-icon">
+                <img
+                  src="./assets/icons/pen.png"
+                  alt=""
+                  class="settings-icon"
+                />
+              </div>
+              <div class="settings-icon">
+                <img
+                  src="./assets/icons/work.png"
+                  alt=""
+                  class="settings-icon"
+                />
+              </div>
+              <div class="settings-icon">
+                <img
+                  src="./assets/icons/cap.png"
+                  alt=""
+                  class="settings-icon"
+                />
+              </div>
+              <div class="settings-icon">
+                <img
+                  src="./assets/icons/info.png"
+                  alt=""
+                  class="settings-icon"
+                />
+              </div>
+            </div>
+            <div class="menu-items">
+              <div class="menu-header">
+                <h4>Ders kayıt işlemleri</h4>
+              </div>
+              <div class="menu-item">
+                <h4>Akademik Durum</h4>
+              </div>
+              <div class="menu-item active">
+                <h4>Ders Kayıt</h4>
+              </div>
+              <div class="menu-item">
+                <h4>Kayıtlı Dersler</h4>
+              </div>
+              <div class="menu-item">
+                <h4>Ders Kayıt Durumu</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="top-menu"></div>
+        <div class="container-fluid mt-4 page-wrapper">
+          <h1 class="page-header">Ders kayıt</h1>
+          <div class="breadcrumb">
+            <span class="item"> Ana Görünüm / </span>
+            <span class="item"> Ders Kayıt İşlemleri / </span>
+            <span class="item active"> Ders Kayıt </span>
+          </div>
+          <div class="alert-menu">
+            <span class="item"
+              >Ders kayıt işlemini ne şekilde yapacağınəz ile ilgili yardım
+              almak için <a href=""><b>buraya tıklayınız.</b></a>
+            </span>
+          </div>
+          <div class="form-area card-body">
+            <span class="form-area-info">
+              Ders almak için aşağıdaki alanlara CRN`leri giriniz.</span
+            >
+            <form>
+              <div class="row">
+                <div class="form-group col-md-3">
+                  <div>
+                    <input
+                      class="form-input"
+                      type="number"
+                      placeholder="CRN Giriniz."
+                    />
+                    <div class="close">
+                      <i class="fas fa-minus"></i>
+                    </div>
+                    <div class="add">
+                      <i class="fas fa-plus"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group col-md-3">
+                  <div>
+                    <input
+                      class="form-input"
+                      type="number"
+                      placeholder="CRN Giriniz."
+                    />
+                    <div class="close">
+                      <i class="fas fa-minus"></i>
+                    </div>
+                    <div class="add">
+                      <i class="fas fa-plus"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group col-md-3">
+                  <div>
+                    <input
+                      class="form-input"
+                      type="number"
+                      placeholder="CRN Giriniz."
+                    />
+                    <div class="close">
+                      <i class="fas fa-minus"></i>
+                    </div>
+                    <div class="add">
+                      <i class="fas fa-plus"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group col-md-3">
+                  <div>
+                    <input
+                      class="form-input"
+                      type="number"
+                      placeholder="CRN Giriniz."
+                    />
+                    <div class="close">
+                      <i class="fas fa-minus"></i>
+                    </div>
+                    <div class="add">
+                      <i class="fas fa-plus"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group col-md-3">
+                  <div>
+                    <input
+                      class="form-input"
+                      type="number"
+                      placeholder="CRN Giriniz."
+                    />
+                    <div class="close">
+                      <i class="fas fa-minus"></i>
+                    </div>
+                    <div class="add">
+                      <i class="fas fa-plus"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group col-md-3">
+                  <div>
+                    <input
+                      class="form-input"
+                      type="number"
+                      placeholder="CRN Giriniz."
+                    />
+                    <div class="close">
+                      <i class="fas fa-minus"></i>
+                    </div>
+                    <div class="add">
+                      <i class="fas fa-plus"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group col-md-3">
+                  <div>
+                    <input
+                      class="form-input"
+                      type="number"
+                      placeholder="CRN Giriniz."
+                    />
+                    <div class="close">
+                      <i class="fas fa-minus"></i>
+                    </div>
+                    <div class="add">
+                      <i class="fas fa-plus"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group col-md-3">
+                  <div>
+                    <input
+                      class="form-input"
+                      type="number"
+                      placeholder="CRN Giriniz."
+                    />
+                    <div class="close">
+                      <i class="fas fa-minus"></i>
+                    </div>
+                    <div class="add">
+                      <i class="fas fa-plus"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group col-md-3">
+                  <div>
+                    <input
+                      class="form-input"
+                      type="number"
+                      placeholder="CRN Giriniz."
+                    />
+                    <div class="close">
+                      <i class="fas fa-minus"></i>
+                    </div>
+                    <div class="add">
+                      <i class="fas fa-plus"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group col-md-3">
+                  <div>
+                    <input
+                      class="form-input"
+                      type="number"
+                      placeholder="CRN Giriniz."
+                    />
+                    <div class="close">
+                      <i class="fas fa-minus"></i>
+                    </div>
+                    <div class="add">
+                      <i class="fas fa-plus"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group col-md-3">
+                  <div>
+                    <input
+                      class="form-input"
+                      type="number"
+                      placeholder="CRN Giriniz."
+                    />
+                    <div class="close">
+                      <i class="fas fa-minus"></i>
+                    </div>
+                    <div class="add">
+                      <i class="fas fa-plus"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group col-md-3">
+                  <div>
+                    <input
+                      class="form-input"
+                      type="number"
+                      placeholder="CRN Giriniz."
+                    />
+                    <div class="close">
+                      <i class="fas fa-minus"></i>
+                    </div>
+                    <div class="add" onclick="add()">
+                      <i class="fas fa-plus"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="buttons">
+                <span class="form-area-info"
+                  >Bırakılacak dersleri asağıdaki listeden seçerek
+                  belirleyebilirsiniz.</span
+                >
+                <div class="d-flex align-items-center mt-2">
+                  <button type="submit" class="save" id="save">Kaydet</button>
+                  <button class="clear" id="clear">Temizle</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="time d-flex justify-content-center align-items-center">
+            <h1 id="time"></h1>
+          </div>
+          <div class="time d-flex justify-content-center align-items-center">
+            <p class="d-none" id="reset">Reset</p>
+          </div>
+          <div class="version">
+            <p id="version"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
