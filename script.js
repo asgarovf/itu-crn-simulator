@@ -1,5 +1,5 @@
 $(document).ready(() => {
-  const version = "beta 0.1";
+  const version = "beta 0.2";
 
   let time = Date.now();
 
