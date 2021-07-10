@@ -328,7 +328,7 @@ button {
   cursor: pointer;
 }
 .version {
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   right: 20px;
 }
